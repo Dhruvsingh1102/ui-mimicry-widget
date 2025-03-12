@@ -1,6 +1,9 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@400;700&display=swap');
 
 @layer base {
   :root {
@@ -97,5 +100,15 @@
 
   body {
     @apply bg-background text-foreground;
+  }
+
+  /* Custom classes for the retro design */
+  .retro-heading {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
+  }
+
+  .retro-text {
+    font-family: 'Roboto Condensed', sans-serif;
   }
 }
